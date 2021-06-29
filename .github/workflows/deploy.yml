@@ -22,7 +22,7 @@ jobs:
   - name: Checkout source code
     uses: actions/checkout@master
 
-  - name: Set up Node,js
+  - name: Set up Node.js
     uses: actions/setup-node@mater
     with:
       node-version:14.x
